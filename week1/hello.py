@@ -5,6 +5,8 @@ print("Hello")
 print("What is your name?")
 user_name = input()
 print("It is good to meet you " + user_name)
+# The len() function works out the length of an object. In this case, it works
+# out how many characters are in the string passed to it.
 print("The length of your name is " + str(len(user_name)) + "characters long.")
 
 print("What is your age?")
